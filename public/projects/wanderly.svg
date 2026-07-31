@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E7490"/>
+      <stop offset="1" stop-color="#164E63"/>
+    </linearGradient>
+    <linearGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <circle cx="540" cy="70" r="46" fill="url(#sun)"/>
+  <path d="M0 300 L160 220 L300 280 L470 200 L640 260 L640 360 L0 360 Z" fill="#0B3B4A"/>
+  <path d="M0 330 L180 268 L340 322 L500 250 L640 305 L640 360 L0 360 Z" fill="#09303C"/>
+  <text x="48" y="66" font-family="Arial" font-size="24" font-weight="800" fill="#FFFFFF">Wanderly</text>
+  <text x="48" y="126" font-family="Arial" font-size="42" font-weight="800" fill="#FFFFFF">Find your next<br/>great escape.</text>
+  <text x="48" y="186" font-family="Arial" font-size="14" fill="#A7F3D0">Handpicked trips, secret spots,<br/>and honest local guides.</text>
+  <rect x="48" y="216" width="544" height="52" rx="26" fill="#FFFFFF"/>
+  <text x="74" y="248" font-family="Arial" font-size="13" fill="#0F766E">Where to?</text>
+  <rect x="330" y="228" width="92" height="28" rx="14" fill="#14B8A6"/>
+  <text x="346" y="247" font-family="Arial" font-size="11" font-weight="bold" fill="#FFFFFF">SEARCH</text>
+</svg>

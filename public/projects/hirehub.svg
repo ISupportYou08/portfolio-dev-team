@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#1A1F3A"/>
+    </linearGradient>
+    <linearGradient id="indigo" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.6">
+      <stop stop-color="#6366F1" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <rect width="640" height="360" fill="url(#glow)"/>
+  <rect x="40" y="40" width="260" height="280" rx="14" fill="#12172E" stroke="#6366F1" stroke-opacity="0.4"/>
+  <rect x="52" y="52" width="236" height="26" rx="8" fill="#1A1F3A"/>
+  <circle cx="68" cy="65" r="6" fill="#818CF8" opacity="0.6"/>
+  <circle cx="86" cy="65" r="6" fill="#818CF8" opacity="0.4"/>
+  <circle cx="104" cy="65" r="6" fill="#818CF8" opacity="0.25"/>
+  <rect x="52" y="92" width="236" height="52" rx="10" fill="#232951" stroke="#818CF8" stroke-opacity="0.35"/>
+  <rect x="64" y="106" width="100" height="8" rx="4" fill="#818CF8" opacity="0.8"/>
+  <rect x="64" y="124" width="70" height="6" rx="3" fill="#818CF8" opacity="0.35"/>
+  <rect x="190" y="106" width="70" height="22" rx="11" fill="url(#indigo)"/>
+  <rect x="52" y="156" width="236" height="52" rx="10" fill="#171C3C" stroke="#6366F1" stroke-opacity="0.25"/>
+  <rect x="64" y="170" width="110" height="8" rx="4" fill="#818CF8" opacity="0.55"/>
+  <rect x="64" y="188" width="60" height="6" rx="3" fill="#818CF8" opacity="0.3"/>
+  <rect x="52" y="220" width="236" height="52" rx="10" fill="#171C3C" stroke="#6366F1" stroke-opacity="0.25"/>
+  <rect x="64" y="234" width="90" height="8" rx="4" fill="#818CF8" opacity="0.55"/>
+  <rect x="64" y="252" width="75" height="6" rx="3" fill="#818CF8" opacity="0.3"/>
+  <text x="352" y="135" font-family="Arial, sans-serif" font-size="58" font-weight="bold" fill="#EEF2FF">HireHub</text>
+  <text x="355" y="163" font-family="Arial, sans-serif" font-size="16" letter-spacing="5" fill="#818CF8">JOB PORTAL</text>
+  <rect x="352" y="190" width="180" height="2" fill="url(#indigo)"/>
+  <text x="352" y="228" font-family="Arial" font-size="13" fill="#EEF2FF" opacity="0.55">Find your next role or your next hire — matched in minutes.</text>
+  <text x="352" y="256" font-family="Arial" font-size="12" letter-spacing="2" fill="#818CF8">BROWSE JOBS →</text>
+  <rect x="544" y="56" width="56" height="40" rx="10" fill="#6366F1" opacity="0.2"/>
+  <rect x="556" y="68" width="32" height="4" rx="2" fill="#818CF8"/>
+  <rect x="556" y="80" width="24" height="4" rx="2" fill="#818CF8" opacity="0.6"/>
+  <circle cx="560" cy="112" r="18" fill="none" stroke="#818CF8" stroke-opacity="0.5" stroke-width="3"/>
+  <circle cx="560" cy="112" r="7" fill="#818CF8"/>
+</svg>

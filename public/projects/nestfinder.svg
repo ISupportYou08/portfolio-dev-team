@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071210"/>
+      <stop offset="1" stop-color="#123B2A"/>
+    </linearGradient>
+    <linearGradient id="emerald" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#6EE7B7"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.6">
+      <stop stop-color="#10B981" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <rect width="640" height="360" fill="url(#glow)"/>
+  <rect x="40" y="40" width="260" height="280" rx="14" fill="#0B1F19" stroke="#10B981" stroke-opacity="0.4"/>
+  <path d="M52 120 L176 56 L300 120 L300 308 L52 308 Z" fill="url(#emerald)" opacity="0.85"/>
+  <path d="M52 120 L176 56 L176 308 L52 308 Z" fill="#10B981" opacity="0.55"/>
+  <rect x="68" y="150" width="90" height="8" rx="4" fill="#E6FFFB" opacity="0.9"/>
+  <rect x="68" y="172" width="120" height="8" rx="4" fill="#E6FFFB" opacity="0.5"/>
+  <rect x="68" y="194" width="100" height="8" rx="4" fill="#E6FFFB" opacity="0.5"/>
+  <rect x="68" y="224" width="140" height="34" rx="10" fill="#0B1F19"/>
+  <circle cx="200" cy="130" r="16" fill="#0B1F19"/>
+  <text x="352" y="135" font-family="Arial, sans-serif" font-size="54" font-weight="bold" fill="#ECFDF5">NestFinder</text>
+  <text x="355" y="163" font-family="Arial, sans-serif" font-size="16" letter-spacing="5" fill="#6EE7B7">REAL ESTATE</text>
+  <rect x="352" y="190" width="180" height="2" fill="url(#emerald)"/>
+  <text x="352" y="228" font-family="Arial" font-size="13" fill="#ECFDF5" opacity="0.55">Properties matched to your life — buy, rent, or invest.</text>
+  <text x="352" y="256" font-family="Arial" font-size="12" letter-spacing="2" fill="#6EE7B7">EXPLORE LISTINGS →</text>
+  <rect x="540" y="52" width="60" height="32" rx="8" fill="#10B981" opacity="0.15"/>
+  <rect x="540" y="52" width="26" height="32" rx="8" fill="url(#emerald)"/>
+  <rect x="540" y="96" width="60" height="32" rx="8" fill="#10B981" opacity="0.15"/>
+  <rect x="540" y="96" width="42" height="32" rx="8" fill="url(#emerald)"/>
+</svg>

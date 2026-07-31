@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FAF6F0"/>
+      <stop offset="1" stop-color="#EFE6DA"/>
+    </linearGradient>
+    <radialGradient id="plate" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#D9A05B"/>
+      <stop offset="1" stop-color="#B97B3C"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <text x="48" y="70" font-family="Georgia, serif" font-size="30" font-style="italic" fill="#2B2118">Emilia</text>
+  <text x="48" y="130" font-family="Georgia, serif" font-size="44" fill="#2B2118">Seasonal. Local.<br/>Unforgettable.</text>
+  <text x="48" y="196" font-family="Arial" font-size="14" fill="#7A6A5A">A modern Italian kitchen rooted in<br/>family recipes since 1998.</text>
+  <rect x="48" y="228" width="130" height="38" rx="19" fill="#C4552D"/>
+  <text x="66" y="252" font-family="Arial" font-size="12" font-weight="bold" fill="#FAF6F0">Reserve a Table</text>
+  <circle cx="440" cy="190" r="110" fill="url(#plate)"/>
+  <circle cx="440" cy="190" r="110" fill="none" stroke="#2B2118" stroke-opacity="0.15" stroke-width="10"/>
+  <text x="440" y="188" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-style="italic" fill="#FAF6F0">E</text>
+  <text x="440" y="216" text-anchor="middle" font-family="Arial" font-size="10" letter-spacing="3" fill="#FAF6F0" opacity="0.85">SIGNATURE PESTO</text>
+  <circle cx="440" cy="190" r="132" fill="none" stroke="#C4552D" stroke-opacity="0.25" stroke-dasharray="4 6"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06121A"/>
+      <stop offset="1" stop-color="#0E2A3A"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#4FD1C5"/>
+      <stop offset="1" stop-color="#2C7A7B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.6">
+      <stop stop-color="#38B2AC" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#38B2AC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <rect width="640" height="360" fill="url(#glow)"/>
+  <rect x="40" y="40" width="260" height="280" rx="14" fill="#0A1D28" stroke="#38B2AC" stroke-opacity="0.4"/>
+  <circle cx="110" cy="90" r="26" fill="url(#teal)" opacity="0.9"/>
+  <circle cx="110" cy="90" r="9" fill="#06121A"/>
+  <rect x="66" y="132" width="90" height="8" rx="4" fill="#4FD1C5" opacity="0.8"/>
+  <rect x="66" y="152" width="120" height="8" rx="4" fill="#4FD1C5" opacity="0.4"/>
+  <rect x="66" y="176" width="100" height="8" rx="4" fill="#4FD1C5" opacity="0.4"/>
+  <rect x="66" y="208" width="140" height="34" rx="10" fill="url(#teal)"/>
+  <rect x="66" y="254" width="170" height="44" rx="12" fill="#0E2A3A" stroke="#4FD1C5" stroke-opacity="0.5"/>
+  <text x="352" y="135" font-family="Arial, sans-serif" font-size="58" font-weight="bold" fill="#E6FFFB">PulseMed</text>
+  <text x="355" y="163" font-family="Arial, sans-serif" font-size="16" letter-spacing="5" fill="#4FD1C5">HEALTHCARE SYSTEM</text>
+  <rect x="352" y="190" width="180" height="2" fill="url(#teal)"/>
+  <text x="352" y="228" font-family="Arial" font-size="13" fill="#E6FFFB" opacity="0.55">Book doctors, manage records, track health — all in one place.</text>
+  <text x="352" y="256" font-family="Arial" font-size="12" letter-spacing="2" fill="#4FD1C5">BOOK APPOINTMENT →</text>
+  <rect x="544" y="52" width="56" height="28" rx="8" fill="#4FD1C5" opacity="0.15"/>
+  <rect x="544" y="52" width="20" height="28" rx="8" fill="url(#teal)"/>
+  <rect x="544" y="92" width="56" height="28" rx="8" fill="#4FD1C5" opacity="0.15"/>
+  <rect x="544" y="92" width="36" height="28" rx="8" fill="url(#teal)"/>
+</svg>
