@@ -4,7 +4,47 @@ import { motion } from 'framer-motion'
 import SectionWrapper from '@/components/ui/SectionWrapper'
 import AnimatedTitle from '@/components/ui/AnimatedTitle'
 import { experience, education } from '@/data/portfolio'
-import { MapPin, ExternalLink, GraduationCap } from 'lucide-react'
+import { MapPin, ExternalLink, GraduationCap, Monitor, Cpu, Network, LifeBuoy, Box, FileText } from 'lucide-react'
+import {
+  SiPhp, SiMysql, SiOpenjdk, SiJavascript, SiHtml5, SiCss, SiBootstrap, SiLinux,
+} from 'react-icons/si'
+
+
+// Tech logo lookup for each technology label used in experience entries
+const techIconMap: Record<string, React.ElementType> = {
+  PHP: SiPhp,
+  MySQL: SiMysql,
+  Java: SiOpenjdk,
+  JavaScript: SiJavascript,
+  HTML: SiHtml5,
+  CSS: SiCss,
+  Bootstrap: SiBootstrap,
+  Windows: Monitor,
+  Linux: SiLinux,
+  Hardware: Cpu,
+  Networking: Network,
+  'IT Support': LifeBuoy,
+  Software: Box,
+  Documentation: FileText,
+}
+
+// Official brand color for each tech logo (watermark tint)
+const brandColors: Record<string, string> = {
+  PHP: '#777BB4',
+  MySQL: '#4479A1',
+  Java: '#E76F00',
+  JavaScript: '#F7DF1E',
+  HTML: '#E34F26',
+  CSS: '#1572B6',
+  Bootstrap: '#7952B3',
+  Windows: '#00A4EF',
+  Linux: '#FCC624',
+  Hardware: '#D97706',
+  Networking: '#22C55E',
+  'IT Support': '#38BDF8',
+  Software: '#A78BFA',
+  Documentation: '#94A3B8',
+}
 
 
 // Experience section — vertical timeline of work history entries
@@ -104,8 +144,24 @@ export default function Experience() {
                   <div className="w-[7px] h-[7px] rounded-full bg-text" />
                 </div>
 
-                <div className="glass-strong rounded-2xl p-6 sm:p-8 hover:glow-primary transition-all duration-500">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-4">
+<div className="glass-strong rounded-2xl p-6 sm:p-8 hover:glow-primary transition-all duration-500 relative overflow-hidden group">
+                  {/* Tech logos as centered fill background */}
+                  <div className="absolute inset-0 flex items-center justify-center p-6 sm:p-8 pointer-events-none">
+                    <div className="relative flex flex-wrap gap-3 sm:gap-4 w-full h-full items-center justify-center">
+                      {exp.technologies.map((tech) => {
+                        const TechIcon = techIconMap[tech]
+                        return TechIcon ? (
+                          <TechIcon
+                            key={tech}
+                            style={{ color: brandColors[tech] ?? 'currentColor' }}
+                            className="w-1/3 h-auto max-h-[40%] min-h-[36px] opacity-[0.08] group-hover:opacity-20 transition-opacity duration-500"
+                          />
+                        ) : null
+                      })}
+                    </div>
+                  </div>
+
+                  <div className="relative z-10 flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-4">
                     <div>
                       <h3 className="font-heading font-semibold text-lg">{exp.position}</h3>
                       <p className="text-text-secondary text-sm">{exp.company}</p>
@@ -115,11 +171,11 @@ export default function Experience() {
                     </span>
                   </div>
 
-                  <p className="text-text-secondary text-sm leading-relaxed mb-4">
+                  <p className="text-text-secondary text-sm leading-relaxed mb-4 relative z-10">
                     {exp.description}
                   </p>
 
-                  <div className="flex flex-wrap gap-1.5">
+                  <div className="flex flex-wrap gap-1.5 relative z-10">
                     {exp.technologies.map((tech) => (
                       <span
                         key={tech}

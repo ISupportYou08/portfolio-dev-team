@@ -101,7 +101,7 @@ export const skills = {
   Languages: [
     { name: "Java", level: 80, years: 3, icon: "SiOpenjdk" },
     { name: "Python", level: 75, years: 2, icon: "SiPython" },
-    { name: "C#", level: 65, years: 1, icon: "SiOpenjdk" },
+    { name: "C#", level: 65, years: 1, icon: "SiDotnet" },
     { name: "PHP", level: 78, years: 2, icon: "SiPhp" },
     { name: "JavaScript", level: 72, years: 2, icon: "SiJavascript" },
   ],
@@ -120,14 +120,14 @@ export const skills = {
     { name: "MySQL", level: 78, years: 2, icon: "SiMysql" },
     { name: "phpMyAdmin", level: 75, years: 2, icon: "SiMysql" },
     { name: "XAMPP", level: 80, years: 2, icon: "SiXampp" },
-    { name: "SSMS (SQL Server)", level: 65, years: 1, icon: "SiMysql" },
+    { name: "SSMS (SQL Server)", level: 65, years: 1, icon: "Database" },
   ],
   "Tools & Support": [
     { name: "Git", level: 70, years: 2, icon: "SiGit" },
     { name: "GitHub", level: 75, years: 2, icon: "SiGithub" },
-    { name: "VS Code", level: 85, years: 3, icon: "SiVercel" },
-    { name: "PC Hardware", level: 80, years: 3, icon: "SiOpenjdk" },
-    { name: "Windows/Linux", level: 78, years: 3, icon: "SiOpenjdk" },
+    { name: "VS Code", level: 85, years: 3, icon: "CodeXml" },
+    { name: "PC Hardware", level: 80, years: 3, icon: "Cpu" },
+    { name: "Windows/Linux", level: 78, years: 3, icon: "Monitor" },
   ],
 }
 
