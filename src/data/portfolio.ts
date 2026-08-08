@@ -3,8 +3,8 @@ export const personalInfo = {
   name: "Ralph Felix C. Florita",
   title: "3rd Year BSIT Student | Assistant Head of Developer Team",
   heroHeading: "Hi, I'm Ralph",
-  heroSubtitle: "Aspiring developer crafting practical solutions through code. Passionate about web development, system troubleshooting, and continuous learning.",
-  aboutBio: "I'm a 3rd year BSIT student at Global Reciprocal Colleges - GRC, serving as Assistant Head of the Developer Team. I specialize in building functional web applications and providing technical support — from software installation to hardware and PC troubleshooting. I'm continuously expanding my skills in Java, C#, Python, SQL, and PHP, with certifications in CSS NCII, Java Programming NCIII, Python Essentials, and Excel.",
+  heroSubtitle: "Aspiring developer crafting practical solutions through code. I also use AI tools to design, build, and ship websites from idea to launch. Passionate about web development, system troubleshooting, and continuous learning.",
+  aboutBio: "I'm a 3rd year BSIT student at Global Reciprocal Colleges - GRC, serving as Assistant Head of the Developer Team. I specialize in building functional web applications and providing technical support — from software installation to hardware and PC troubleshooting. I also leverage AI (ChatGPT, Claude, GitHub Copilot) to build complete websites faster, combining modern AI workflows with solid development fundamentals. I'm continuously expanding my skills in Java, C#, Python, SQL, and PHP, with certifications in CSS NCII, Java Programming NCIII, Python Essentials, and Excel.",
   email: "floritaalp@gmail.com",
   location: "Philippines",
   resumeUrl: "/resume.html",
@@ -129,6 +129,12 @@ export const skills = {
     { name: "PC Hardware", level: 80, years: 3, icon: "Cpu" },
     { name: "Windows/Linux", level: 78, years: 3, icon: "Monitor" },
   ],
+  "AI Tools": [
+    { name: "ChatGPT", level: 85, years: 2, icon: "Bot" },
+    { name: "Claude", level: 82, years: 2, icon: "SiClaude" },
+    { name: "GitHub Copilot", level: 78, years: 2, icon: "SiGithubcopilot" },
+    { name: "Gemini", level: 70, years: 1, icon: "SiGooglegemini" },
+  ],
 }
 
 // projects — portfolio pieces with images, tech, and links, rendered in the Projects section.
@@ -228,6 +234,7 @@ export const projects = [
 
 // services — offerings with icon names, displayed as cards in the Services section
 export const services = [
+  { title: "AI-Powered Web Development", description: "Building complete websites from idea to launch using AI tools — faster design, faster code, and real results you can use.", icon: "WandSparkles" },
   { title: "Web Development", description: "Building functional websites and web applications using PHP, JavaScript, and MySQL.", icon: "Globe" },
   { title: "Application Development", description: "Developing desktop and web applications in Java, Python, and C#.", icon: "Server" },
   { title: "PC Troubleshooting", description: "Hardware and software diagnosis, repair, and maintenance for computers and peripherals.", icon: "Smartphone" },
@@ -289,5 +296,8 @@ export const techStack = {
     { name: "GitHub", icon: "SiGithub" },
     { name: "Docker", icon: "SiDocker" },
     { name: "Railway", icon: "SiRailway" },
+    { name: "Claude", icon: "SiClaude" },
+    { name: "GitHub Copilot", icon: "SiGithubcopilot" },
+    { name: "Gemini", icon: "SiGooglegemini" },
   ],
 }

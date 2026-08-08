@@ -11,7 +11,9 @@ import {
   SiPython, SiDart, SiFlutter, SiOpenjdk, SiDotnet, SiMysql, SiFirebase,
   SiGit, SiGithub, SiDocker, SiNodedotjs, SiReact, SiVuedotjs,
   SiBootstrap, SiTailwindcss, SiXampp, SiRailway,
+  SiClaude, SiGithubcopilot, SiGooglegemini,
 } from 'react-icons/si'
+
 
 // TechStack section — technologies grouped by purpose, browsed through an interactive navbar-style tab switcher
 const iconMap: Record<string, React.ElementType> = {
@@ -19,6 +21,7 @@ const iconMap: Record<string, React.ElementType> = {
   SiPython, SiDart, SiFlutter, SiOpenjdk, SiDotnet, SiMysql, SiFirebase,
   SiGit, SiGithub, SiDocker, SiNodedotjs, SiReact, SiVuedotjs,
   SiBootstrap, SiTailwindcss, SiXampp, SiRailway,
+  SiClaude, SiGithubcopilot, SiGooglegemini,
   Database,
 }
 
@@ -47,6 +50,9 @@ const techUrls: Record<string, string> = {
   SiTailwindcss: 'https://tailwindcss.com/',
   SiXampp: 'https://www.apachefriends.org/',
   SiRailway: 'https://railway.app/',
+  SiClaude: 'https://claude.ai/',
+  SiGithubcopilot: 'https://github.com/features/copilot',
+  SiGooglegemini: 'https://gemini.google.com/',
   Database: 'https://learn.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms',
 }
 
@@ -75,6 +81,9 @@ const techColors: Record<string, string> = {
   SiTailwindcss: '#06B6D4',
   SiXampp: '#FB7A24',
   SiRailway: '#8C1FFF',
+  SiClaude: '#D97757',
+  SiGithubcopilot: '#4A90E2',
+  SiGooglegemini: '#8E75B2',
   Database: '#CC2927',
 }
 

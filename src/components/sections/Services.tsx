@@ -6,12 +6,12 @@ import TiltCard from '@/components/ui/TiltCard'
 import AnimatedTitle from '@/components/ui/AnimatedTitle'
 import { services } from '@/data/portfolio'
 import {
-  Globe, Smartphone, Palette, Server, Database, Cloud,
+  Globe, Smartphone, Palette, Server, Database, Cloud, WandSparkles,
 } from 'lucide-react'
 
 // Services section — grid of cards describing what the developer offers
 const iconMap: Record<string, React.ElementType> = {
-  Globe, Smartphone, Palette, Server, Database, Cloud,
+  Globe, Smartphone, Palette, Server, Database, Cloud, WandSparkles,
 }
 
 export default function Services() {

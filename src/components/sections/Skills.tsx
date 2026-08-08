@@ -14,17 +14,19 @@ import {
   SiMysql, SiFirebase, SiMongodb, SiFigma,
   SiCloudflare, SiVercel, SiNetlify, SiGit, SiGithub,
   SiDocker, SiOpenjdk, SiXampp, SiDotnet,
+  SiClaude, SiGithubcopilot, SiGooglegemini,
 } from 'react-icons/si'
-import { Database, CodeXml, Cpu, Monitor } from 'lucide-react'
+import { Database, CodeXml, Cpu, Monitor, Bot, Sparkles } from 'lucide-react'
 
-// Skills section — category tabs with skill cards showing proficiency circles
+// Skills section — grouped tabs with proficiency rings
 const iconMap: Record<string, React.ElementType> = {
   SiHtml5, SiCss, SiJavascript, SiTypescript, SiReact, SiVuedotjs,
   SiBootstrap, SiTailwindcss, SiPhp, SiLaravel, SiPython, SiNodedotjs,
   SiMysql, SiFirebase, SiMongodb, SiFigma,
   SiCloudflare, SiVercel, SiNetlify, SiGit, SiGithub,
   SiDocker, SiOpenjdk, SiXampp, SiDotnet,
-  Database, CodeXml, Cpu, Monitor,
+  SiClaude, SiGithubcopilot, SiGooglegemini,
+  Database, CodeXml, Cpu, Monitor, Bot, Sparkles,
 }
 
 // Official brand color for each skill icon (tints the background logo)
@@ -54,10 +56,15 @@ const brandColors: Record<string, string> = {
   SiOpenjdk: '#E76F00',
   SiXampp: '#FB7A24',
   SiDotnet: '#512BD4',
+  SiClaude: '#D97757',
+  SiGithubcopilot: '#4A90E2',
+  SiGooglegemini: '#8E75B2',
   Database: '#CC2927',
   CodeXml: '#007ACC',
   Cpu: '#D97706',
   Monitor: '#00A4EF',
+  Bot: '#10A37F',
+  Sparkles: '#6366F1',
 }
 
 // Skill categories derived from the skills data keys
